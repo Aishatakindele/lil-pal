@@ -1,1 +1,29 @@
-.
+*{ 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero-section{ 
+    background-color: #212127;
+    padding: 0px 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .left-side{
+    display: flex;
+    align-items: center;
+}
+
+.header .left-side img{
+    width: 130px;
+}
+
+.header .social-icons img{ 
+    width: 20px;   
+}
