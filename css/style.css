@@ -56,3 +56,17 @@ ul {
 .header .right-side ul li {
     margin-right: 20px;
 }
+
+.btn-prinary{
+    background-color: #3f4460;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: #fd7776;
+    transition: ease-in-out 0.2s;
+}
