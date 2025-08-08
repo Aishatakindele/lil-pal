@@ -30,7 +30,7 @@ ul {
     width: 130px;
 }
 
-.header .social-icons{
+.header .social-icons {
     margin-left: 10px;
 }
 
@@ -57,7 +57,7 @@ ul {
     margin-right: 20px;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #3f4460;
     color: white;
     border: none;
@@ -65,8 +65,18 @@ ul {
     border-radius: 5px;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     cursor: pointer;
     background-color: #fd7776;
     transition: ease-in-out 0.2s;
+}
+
+.hero-content-right img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big-img {
+    padding-left: 500px;
 }
